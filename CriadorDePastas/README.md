@@ -1,18 +1,23 @@
-## Getting Started
+# Folder Creator
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto é uma aplicação Java que permite ao usuário criar pastas em um diretório de sua escolha, utilizando uma interface gráfica simples.
 
-## Folder Structure
+## Funcionalidades
+- **Escolha de diretório**: Permite ao usuário selecionar o local onde deseja criar a pasta.
+- **Criação de pastas**: Cria uma pasta com o nome escolhido pelo usuário no diretório selecionado.
+- **Mensagens de status**: Exibe mensagens indicando o sucesso ou erro durante a criação da pasta.
 
-The workspace contains two folders by default, where:
+## Pré-requisitos
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- [Java JDK](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) (versão 8 ou superior)
+- Editor de código ou IDE (por exemplo, [Eclipse](https://www.eclipse.org/), [IntelliJ IDEA](https://www.jetbrains.com/idea/), ou qualquer outro de sua escolha)
+- [Git](https://git-scm.com/) para clonar o repositório (opcional)
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Como Executar
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+### 1. Clonar o Repositório
 
-## Dependency Management
+Se você tiver Git instalado, abra o terminal e execute o comando:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+```bash
+git clone https://github.com/dbcfilho/folder-creator.git
